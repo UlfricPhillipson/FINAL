@@ -1,0 +1,93 @@
+nav{
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 10%;
+    max-width: fit-content;
+    margin: 0 auto;
+    float: left;
+    height: fit-content;
+    color: aliceblue;
+    padding: 5px;
+    line-height: 30px;
+    background-color: rgb(255, 0, 221);
+    float: left;
+}
+h2{
+    text-align: left;
+}
+.nav2{
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 10%;
+    max-width: fit-content;
+    margin: 0 auto;
+    height: 32px;
+    width: auto;
+    padding: 5px;
+    line-height: 30px;
+    background-color: rgb(255, 0, 221);
+    float: right;
+
+    
+}
+button{
+    padding: 5px ;
+    background-color: rgb(70, 0, 128);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: default;
+  
+}
+Button:hover{
+    background-color: plum;
+    
+}
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+header{
+    text-emphasis: bold;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: aliceblue;
+}
+#memeImage{
+    align-self: center;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    padding: 5px;
+    animation-name: moving;
+    animation-duration: 0s;    
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+    
+}
+
+#memeimage{
+    animation-name: pictureBackground;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+    from{
+        margin-left: 100px;
+     }
+     to {
+        margin-left: 500px;
+        margin-top: 2%;
+    }  
+
+        0%   {background-color:red;}
+        25%  {background-color:yellow;}
+        50%  {background-color:blue;}
+        75%  {background-color:green;}
+        100% {background-color:red;}      
+}
